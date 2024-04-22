@@ -49,7 +49,7 @@ public class OrderServiceImpl extends ServiceImpl<OrderMapper, Order> implements
 //        seckillGoods.setStockCount(seckillGoods.getStockCount()- 1);
 //        seckillGoodsService.updateById(seckillGoods);
 
-        // 老师分析：
+        // 分析：
         // 1. MySql 在默认的事务隔离级别[REPEATABLE READ]下
         // 2. 执行update语句时，会在事务中锁定要更新的行
         // 3. 这样可以防止其他会话在同一行执行update/delete语句

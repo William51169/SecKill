@@ -108,7 +108,7 @@ public class UserUtil {
     }
 
     public static void main(String[] args) throws Exception {
-        create(2000);//这里老师创建了2000个用户.
+        create(2000);//这里创建了2000个用户.
     }
 }
 
